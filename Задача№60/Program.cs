@@ -29,8 +29,7 @@ int[,,] Create3DMassive(int size1, int size2, int size3)
 {
     int[,,] array = new int[size1, size2, size3];
     int[] values = new int[countNums];
-    int num
-     = 10;
+    int num = 10;
     for (int i = 0; i < values.Length; i++)
         values[i] = num
         ++;
